@@ -50,7 +50,7 @@ def process_data(data, que_len, gap):
     return np.array(p_data)    
     
 
-def roll_search(data,obj_data):
+def roll_search(pair_data,obj_data):
     min_distance = INFF
     search_index = 0 
     for index,slic in enumerate(pair_data):
