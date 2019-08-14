@@ -155,6 +155,7 @@ res = sm.tsa.seasonal_decompose(data,two_sided=False)
 resid = res.resid
 resid = resid[12:]
 
+
 resid.plot()
 plt.show()
 
